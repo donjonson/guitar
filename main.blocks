@@ -1,1 +1,19 @@
-<xml xmlns="https://developers.google.com/blockly/xml"/>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="G;asXSo?zs)kbB?)L^Bn" x="20" y="20"><statement name="HANDLER"><block type="device_start_melody" id="eQhN2F5tOMjh)KUp4d;7"><field name="options">MelodyOptions.Once</field><value name="melody"><shadow type="device_builtin_melody" id="it{Ed;5t#Hd*K3rD98k@"><field name="melody">Melodies.Nyan</field></shadow></value></block></statement></block><block type="device_forever" id="EGeSU*bRcS_nupYQTOvw" x="508" y="20"><statement name="HANDLER"><block type="device_while" id="_VwWO{Oi)(%|4Y2cj{j?"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="~o|kWau6euZ~H;k~(rUr"><field name="NAME">TouchPin.P0</field></block></value><statement name="DO"><block type="device_show_leds" id="DJ@(Opi?S@A1mQJ~|HZ7"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # . . # 
+        . # # # # 
+        . # . # .
+        `</field><next><block type="device_play_note" id=")|G(nLlwr!PU4:KCEgyg"><value name="note"><shadow type="device_note" id="HSrp)ehpIUp/nqdV8q2/"><field name="name">349</field></shadow></value><value name="duration"><shadow type="device_beat" id="EjiB6dP9K7tMqSgky+-H"><field name="fraction">BeatFraction.Whole</field></shadow></value></block></next></block></statement></block></statement></block><block type="device_forever" id="J!LdlLsQN:z~0]},M3I^" x="1040" y="20"><statement name="HANDLER"><block type="device_while" id="j^#_HuWhaHom:0Eb|-d)"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="rInVp1CKmC,yTo,^5`=#"><field name="NAME">TouchPin.P1</field></block></value><statement name="DO"><block type="device_show_leds" id="|ta@Dm-z@/Bv{0t~q;P9"><field name="LEDS">`
+        . . . . . 
+        . # # . . 
+        . # . . . 
+        . # # # # 
+        . # . # #
+        `</field><next><block type="device_play_note" id="mP;*F1(rL({69qk/8w,#"><value name="note"><shadow type="device_note" id="(711$q7mXFmuI$Ew;M;i"><field name="name">440</field></shadow></value><value name="duration"><shadow type="device_beat" id="CT)IgQlAj2;zL9ohCL(E"><field name="fraction">BeatFraction.Whole</field></shadow></value></block></next></block></statement></block></statement></block><block type="device_forever" id="aBls.jH+z]snc3z{{aZQ" x="20" y="498"><statement name="HANDLER"><block type="device_while" id="Gj1@`XIIT4CH*a6gB669"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="-HzH!XO}FAlz~h3jb^$Q"><field name="NAME">TouchPin.P2</field></block></value><statement name="DO"><block type="device_show_leds" id="L?roy;ncLxcq)*9[pMGP"><field name="LEDS">`
+        . . . . . 
+        . # # . . 
+        . # . . . 
+        . # # # . 
+        . # . . #
+        `</field><next><block type="device_play_note" id="/o{Vp*{SQhd}IUMIvq4="><value name="note"><shadow type="device_note" id="m#%MvG]e[ANSP:7=O@F]"><field name="name">523</field></shadow></value><value name="duration"><shadow type="device_beat" id="cBt~t*c@?Yux!8RKxl+E"><field name="fraction">BeatFraction.Whole</field></shadow></value></block></next></block></statement></block></statement></block></xml>
